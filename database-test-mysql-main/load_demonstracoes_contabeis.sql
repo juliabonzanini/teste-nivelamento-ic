@@ -1,6 +1,5 @@
 -- 3. TESTE DE BANCO DE DADOS
 -- 3.3. Crie queries para estruturar tabelas necessárias para o arquivo csv.
-DROP INDEX idx_data_reg_ans ON demonstracoes_contabeis;
 CREATE DATABASE IF NOT EXISTS demonstracoes_contabeis_database;
 USE demonstracoes_contabeis_database;
 
