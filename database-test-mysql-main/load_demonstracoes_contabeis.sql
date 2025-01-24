@@ -15,7 +15,7 @@ CREATE TABLE IF NOT EXISTS demonstracoes_contabeis (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- Índices para melhorar performance de consultas futuras
-CREATE INDEX idx_data_reg_ans ON demonstracoes_contabeis (data_data, reg_ans);
+CREATE INDEX idx_data_reg_ans ON demonstracoes_contabeis_database.demonstracoes_contabeis (data_data, reg_ans);
 CREATE INDEX idx_descricao_data ON demonstracoes_contabeis_database.demonstracoes_contabeis (descricao, data_data);
 
 -- 3.4. Elabore queries para importar o conteúdo dos arquivos preparados, atentando para o encoding correto.
