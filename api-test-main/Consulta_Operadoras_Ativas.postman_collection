@@ -1,0 +1,556 @@
+{
+	"info": {
+		"_postman_id": "7b8b0682-a47d-4fbb-8f1a-b511343c6fae",
+		"name": "Consulta Operadoras Ativas",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "41409046"
+	},
+	"item": [
+		{
+			"name": "Busca por Registro ANS",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8082/search?query=421421",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8082",
+					"path": [
+						"search"
+					],
+					"query": [
+						{
+							"key": "query",
+							"value": "421421"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Busca por \"419761\"",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8082/search?query=419761",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8082",
+							"path": [
+								"search"
+							],
+							"query": [
+								{
+									"key": "query",
+									"value": "419761"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "date",
+							"value": "Wed, 22 Jan 2025 23:27:42 GMT"
+						},
+						{
+							"key": "server",
+							"value": "uvicorn"
+						},
+						{
+							"key": "content-length",
+							"value": "520"
+						},
+						{
+							"key": "content-type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"Registro_ANS\": \"419761\",\n        \"CNPJ\": \"19541931000125\",\n        \"Razao_Social\": \"18 DE JULHO ADMINISTRADORA DE BENEFÍCIOS LTDA\",\n        \"Nome_Fantasia\": \"\",\n        \"Modalidade\": null,\n        \"Logradouro\": \"RUA CAPITÃO MEDEIROS DE REZENDE\",\n        \"Numero\": \"274\",\n        \"Complemento\": null,\n        \"Bairro\": \"PRAÇA DA BANDEIRA\",\n        \"Cidade\": \"Além Paraíba\",\n        \"UF\": \"MG\",\n        \"CEP\": null,\n        \"DDD\": null,\n        \"Telefone\": \"34624649\",\n        \"Fax\": null,\n        \"Endereco_eletronico\": \"contabilidade@cbnassessoria.com.br\",\n        \"Representante\": null,\n        \"Cargo_Representante\": null,\n        \"Regiao_de_Comercializacao\": null,\n        \"Data_Registro_ANS\": null\n    }\n]"
+				},
+				{
+					"name": "Busca por \"421545\"",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8082/search?query=421545",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8082",
+							"path": [
+								"search"
+							],
+							"query": [
+								{
+									"key": "query",
+									"value": "421545"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "date",
+							"value": "Wed, 22 Jan 2025 23:31:11 GMT"
+						},
+						{
+							"key": "server",
+							"value": "uvicorn"
+						},
+						{
+							"key": "content-length",
+							"value": "481"
+						},
+						{
+							"key": "content-type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"Registro_ANS\": \"421545\",\n        \"CNPJ\": \"22869997000153\",\n        \"Razao_Social\": \"2B ODONTOLOGIA OPERADORA DE PLANOS ODONTOLÓGICOS LTDA\",\n        \"Nome_Fantasia\": \"\",\n        \"Modalidade\": null,\n        \"Logradouro\": \"RUA CATÃO\",\n        \"Numero\": \"128\",\n        \"Complemento\": null,\n        \"Bairro\": \"VILA ROMANA\",\n        \"Cidade\": \"São Paulo\",\n        \"UF\": \"SP\",\n        \"CEP\": null,\n        \"DDD\": null,\n        \"Telefone\": \"34415852\",\n        \"Fax\": null,\n        \"Endereco_eletronico\": \"labmarisol@gmail.com\",\n        \"Representante\": null,\n        \"Cargo_Representante\": null,\n        \"Regiao_de_Comercializacao\": null,\n        \"Data_Registro_ANS\": null\n    }\n]"
+				},
+				{
+					"name": "Busca por \"421421\"",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8082/search?query=421421",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8082",
+							"path": [
+								"search"
+							],
+							"query": [
+								{
+									"key": "query",
+									"value": "421421"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "date",
+							"value": "Wed, 22 Jan 2025 23:31:49 GMT"
+						},
+						{
+							"key": "server",
+							"value": "uvicorn"
+						},
+						{
+							"key": "content-length",
+							"value": "475"
+						},
+						{
+							"key": "content-type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"Registro_ANS\": \"421421\",\n        \"CNPJ\": \"27452545000195\",\n        \"Razao_Social\": \"2CARE OPERADORA DE SAÚDE LTDA.\",\n        \"Nome_Fantasia\": \"\",\n        \"Modalidade\": null,\n        \"Logradouro\": \"RUA: BERNARDINO DE CAMPOS\",\n        \"Numero\": \"230\",\n        \"Complemento\": null,\n        \"Bairro\": \"CENTRO\",\n        \"Cidade\": \"Campinas\",\n        \"UF\": \"SP\",\n        \"CEP\": null,\n        \"DDD\": null,\n        \"Telefone\": \"37901224\",\n        \"Fax\": null,\n        \"Endereco_eletronico\": \"ans.plano@hospitalcare.com.br\",\n        \"Representante\": null,\n        \"Cargo_Representante\": null,\n        \"Regiao_de_Comercializacao\": null,\n        \"Data_Registro_ANS\": null\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "Busca por CNPJ",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8082/search?query=17505793000101",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8082",
+					"path": [
+						"search"
+					],
+					"query": [
+						{
+							"key": "query",
+							"value": "17505793000101"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Busca por 41788751000100",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8082/search?query=41788751000100",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8082",
+							"path": [
+								"search"
+							],
+							"query": [
+								{
+									"key": "query",
+									"value": "41788751000100"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "date",
+							"value": "Wed, 22 Jan 2025 23:33:23 GMT"
+						},
+						{
+							"key": "server",
+							"value": "uvicorn"
+						},
+						{
+							"key": "content-length",
+							"value": "503"
+						},
+						{
+							"key": "content-type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"Registro_ANS\": \"422908\",\n        \"CNPJ\": \"41788751000100\",\n        \"Razao_Social\": \"3S ADMINISTRADORA DE BENEFICIOS LTDA\",\n        \"Nome_Fantasia\": \"3S ADMINISTRADORA DE BENEFICIOS\",\n        \"Modalidade\": null,\n        \"Logradouro\": \"RUA ITÁLIA\",\n        \"Numero\": \"33\",\n        \"Complemento\": null,\n        \"Bairro\": \"JARDIM BONFIGLIOLI\",\n        \"Cidade\": \"Jundiaí\",\n        \"UF\": \"SP\",\n        \"CEP\": null,\n        \"DDD\": null,\n        \"Telefone\": \"42263247\",\n        \"Fax\": null,\n        \"Endereco_eletronico\": \"pietrorocchi37@gmail.com\",\n        \"Representante\": null,\n        \"Cargo_Representante\": null,\n        \"Regiao_de_Comercializacao\": null,\n        \"Data_Registro_ANS\": null\n    }\n]"
+				},
+				{
+					"name": "Busca por 13138885000131",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8082/search?query=13138885000131",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8082",
+							"path": [
+								"search"
+							],
+							"query": [
+								{
+									"key": "query",
+									"value": "13138885000131"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "date",
+							"value": "Wed, 22 Jan 2025 23:34:29 GMT"
+						},
+						{
+							"key": "server",
+							"value": "uvicorn"
+						},
+						{
+							"key": "content-length",
+							"value": "501"
+						},
+						{
+							"key": "content-type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"Registro_ANS\": \"418030\",\n        \"CNPJ\": \"13138885000131\",\n        \"Razao_Social\": \"A.P.S. ADMINISTRADORA DE BENEFÍCOS LTDA.\",\n        \"Nome_Fantasia\": \"A.P.S. SAÚDE.\",\n        \"Modalidade\": null,\n        \"Logradouro\": \"RUA VOLUNTÁRIOS DA PÁTRIA\",\n        \"Numero\": \"2525\",\n        \"Complemento\": null,\n        \"Bairro\": \"SANTANA\",\n        \"Cidade\": \"São Paulo\",\n        \"UF\": \"SP\",\n        \"CEP\": null,\n        \"DDD\": null,\n        \"Telefone\": \"45223468\",\n        \"Fax\": null,\n        \"Endereco_eletronico\": \"diretoria@apssaude.com.br\",\n        \"Representante\": null,\n        \"Cargo_Representante\": null,\n        \"Regiao_de_Comercializacao\": null,\n        \"Data_Registro_ANS\": null\n    }\n]"
+				},
+				{
+					"name": "Busca por 17505793000101",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8082/search?query=17505793000101",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8082",
+							"path": [
+								"search"
+							],
+							"query": [
+								{
+									"key": "query",
+									"value": "17505793000101"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "date",
+							"value": "Wed, 22 Jan 2025 23:35:01 GMT"
+						},
+						{
+							"key": "server",
+							"value": "uvicorn"
+						},
+						{
+							"key": "content-length",
+							"value": "555"
+						},
+						{
+							"key": "content-type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"Registro_ANS\": \"314668\",\n        \"CNPJ\": \"17505793000101\",\n        \"Razao_Social\": \"ABERTTA SAÚDE - ASSOCIAÇÃO BENEFICENTE DOS EMPREGADOS DA ARCELORMITTAL NO BRASIL\",\n        \"Nome_Fantasia\": \"ABERTTA SAÚDE\",\n        \"Modalidade\": null,\n        \"Logradouro\": \"AV. BERNARDO MONTEIRO\",\n        \"Numero\": \"831\",\n        \"Complemento\": null,\n        \"Bairro\": \"SANTA EFIGÊNIA\",\n        \"Cidade\": \"Belo Horizonte\",\n        \"UF\": \"MG\",\n        \"CEP\": null,\n        \"DDD\": null,\n        \"Telefone\": \"32484300\",\n        \"Fax\": null,\n        \"Endereco_eletronico\": \"abertta.ans@arcelormittal.com.br\",\n        \"Representante\": null,\n        \"Cargo_Representante\": null,\n        \"Regiao_de_Comercializacao\": null,\n        \"Data_Registro_ANS\": null\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "Busca por cidade",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8082/search?query=Jundiaí",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8082",
+					"path": [
+						"search"
+					],
+					"query": [
+						{
+							"key": "query",
+							"value": "Jundiaí"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Busca por Porto Alegre",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8082/search?query=Porto Alegre",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8082",
+							"path": [
+								"search"
+							],
+							"query": [
+								{
+									"key": "query",
+									"value": "Porto Alegre"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "date",
+							"value": "Wed, 22 Jan 2025 23:39:51 GMT"
+						},
+						{
+							"key": "server",
+							"value": "uvicorn"
+						},
+						{
+							"key": "content-length",
+							"value": "12259"
+						},
+						{
+							"key": "content-type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"Registro_ANS\": \"417599\",\n        \"CNPJ\": \"92741016000173\",\n        \"Razao_Social\": \"ASSOCIAÇAO DOS FUNCIONARIOS PUBLICOS DO ESTADO DO RIO GRANDE DO SUL\",\n        \"Nome_Fantasia\": \"VERTE SAUDE - AFPERGS\",\n        \"Modalidade\": null,\n        \"Logradouro\": \"RUA DOS ANDRADAS\",\n        \"Numero\": \"846\",\n        \"Complemento\": null,\n        \"Bairro\": \"CENTRO\",\n        \"Cidade\": \"Porto Alegre\",\n        \"UF\": \"RS\",\n        \"CEP\": null,\n        \"DDD\": null,\n        \"Telefone\": \"32841500\",\n        \"Fax\": null,\n        \"Endereco_eletronico\": \"najara.bandeira@afpergs.com.br\",\n        \"Representante\": null,\n        \"Cargo_Representante\": null,\n        \"Regiao_de_Comercializacao\": null,\n        \"Data_Registro_ANS\": null\n    },\n    {\n        \"Registro_ANS\": \"382639\",\n        \"CNPJ\": \"92911056000116\",\n        \"Razao_Social\": \"ASSOCIAÇÃO DOS FISCAIS DE TRIBUTOS ESTADUAIS DO RS - AFISVEC\",\n        \"Nome_Fantasia\": \"AFISVEC - SAÚDE\",\n        \"Modalidade\": null,\n        \"Logradouro\": \"RUA URUGUAI\",\n        \"Numero\": \"155\",\n        \"Complemento\": null,\n        \"Bairro\": \"CENTRO\",\n        \"Cidade\": \"Porto Alegre\",\n        \"UF\": \"RS\",\n        \"CEP\": null,\n        \"DDD\": null,\n        \"Telefone\": \"32244922\",\n        \"Fax\": null,\n        \"Endereco_eletronico\": \"saude@afisvec.org.br\",\n        \"Representante\": null,\n        \"Cargo_Representante\": null,\n        \"Regiao_de_Comercializacao\": null,\n        \"Data_Registro_ANS\": null\n    },\n    {\n        \"Registro_ANS\": \"423807\",\n        \"CNPJ\": \"92685833000151\",\n        \"Razao_Social\": \"ASSOCIAÇÃO HOSPITALAR MOINHOS DE VENTO\",\n        \"Nome_Fantasia\": \"HOSPITAL MOINHOS DE VENTO\",\n        \"Modalidade\": null,\n        \"Logradouro\": \"Rua Ramiro Barcelos\",\n        \"Numero\": \"910\",\n        \"Complemento\": null,\n        \"Bairro\": \"Moinhos de Vento\",\n        \"Cidade\": \"Porto Alegre\",\n        \"UF\": \"RS\",\n        \"CEP\": null,\n        \"DDD\": null,\n        \"Telefone\": \"33143545\",\n        \"Fax\": null,\n        \"Endereco_eletronico\": \"marines@hmv.org.br\",\n        \"Representante\": null,\n        \"Cargo_Representante\": null,\n        \"Regiao_de_Comercializacao\": null,\n        \"Data_Registro_ANS\": null\n    },\n    {\n        \"Registro_ANS\": \"423467\",\n        \"CNPJ\": \"46092428000102\",\n        \"Razao_Social\": \"BENET ADMINISTRAÇÃO DE BENEFÍCIOS LTDA\",\n        \"Nome_Fantasia\": \"BENET ADMINISTRAÇÃO DE BENEFÍCIOS\",\n        \"Modalidade\": null,\n        \"Logradouro\": \"RUA DOM PEDRO II\",\n        \"Numero\": \"1220.0\",\n        \"Complemento\": null,\n        \"Bairro\": \"HIGIENÓPOLIS\",\n        \"Cidade\": \"Porto Alegre\",\n        \"UF\": \"RS\",\n        \"CEP\": null,\n        \"DDD\": null,\n        \"Telefone\": \"981192900\",\n        \"Fax\": null,\n        \"Endereco_eletronico\": \"mauricio@beneficio.com.br\",\n        \"Representante\": null,\n        \"Cargo_Representante\": null,\n        \"Regiao_de_Comercializacao\": null,\n        \"Data_Registro_ANS\": null\n    },\n    {\n        \"Registro_ANS\": \"307319\",\n        \"CNPJ\": \"02315431000172\",\n        \"Razao_Social\": \"CAIXA DE ASSISTÊNCIA DOS EMPREGADOS DO BANCO DO ESTADO DO RIO GRANDE DO SUL\",\n        \"Nome_Fantasia\": \"CABERGS\",\n        \"Modalidade\": null,\n        \"Logradouro\": \"RUA SIQUEIRA CAMPOS\",\n        \"Numero\": \"736\",\n        \"Complemento\": null,\n        \"Bairro\": \"CENTRO\",\n        \"Cidade\": \"Porto Alegre\",\n        \"UF\": \"RS\",\n        \"CEP\": null,\n        \"DDD\": null,\n        \"Telefone\": \"32629167\",\n        \"Fax\": null,\n        \"Endereco_eletronico\": \"paulonunes@cabergs.org.br\",\n        \"Representante\": null,\n        \"Cargo_Representante\": null,\n        \"Regiao_de_Comercializacao\": null,\n        \"Data_Registro_ANS\": null\n    },\n    {\n        \"Registro_ANS\": \"392804\",\n        \"CNPJ\": \"00773639000100\",\n        \"Razao_Social\": \"CENTRO CLÍNICO GAÚCHO LTDA\",\n        \"Nome_Fantasia\": \"CENTRO CLÍNICO GAÚCHO\",\n        \"Modalidade\": null,\n        \"Logradouro\": \"RUA DONA MARGARIDA\",\n        \"Numero\": \"537\",\n        \"Complemento\": null,\n        \"Bairro\": \"NAVEGANTES\",\n        \"Cidade\": \"Porto Alegre\",\n        \"UF\": \"RS\",\n        \"CEP\": null,\n        \"DDD\": null,\n        \"Telefone\": \"32879212\",\n        \"Fax\": null,\n        \"Endereco_eletronico\": \"ans@hapvida.com.br\",\n        \"Representante\": null,\n        \"Cargo_Representante\": null,\n        \"Regiao_de_Comercializacao\": null,\n        \"Data_Registro_ANS\": null\n    },\n    {\n        \"Registro_ANS\": \"367087\",\n        \"CNPJ\": \"87158507000156\",\n        \"Razao_Social\": \"COOPERATIVA CENTRAL UNIMED DE COOPERATIVAS DE ASSISTÊNCIA À SAÚDE DO RIO GRANDE DO SUL LTDA.\",\n        \"Nome_Fantasia\": \"UNIMED RIO GRANDE DO SUL\",\n        \"Modalidade\": null,\n        \"Logradouro\": \"RUA SANTA TEREZINHA\",\n        \"Numero\": \"340\",\n        \"Complemento\": null,\n        \"Bairro\": \"FARROUPILHA\",\n        \"Cidade\": \"Porto Alegre\",\n        \"UF\": \"RS\",\n        \"CEP\": null,\n        \"DDD\": null,\n        \"Telefone\": \"132011370\",\n        \"Fax\": null,\n        \"Endereco_eletronico\": \"unimedrs@unimedrs.com.br\",\n        \"Representante\": null,\n        \"Cargo_Representante\": null,\n        \"Regiao_de_Comercializacao\": null,\n        \"Data_Registro_ANS\": null\n    },\n    {\n        \"Registro_ANS\": \"349682\",\n        \"CNPJ\": \"01387625000110\",\n        \"Razao_Social\": \"DOCTOR CLIN OPERADORA DE PLANOS DE SAÚDE LTDA.\",\n        \"Nome_Fantasia\": \"DOCTOR CLIN\",\n        \"Modalidade\": null,\n        \"Logradouro\": \"Rua Sete de Setembro\",\n        \"Numero\": \"769\",\n        \"Complemento\": null,\n        \"Bairro\": \"CENTRO HISTÓRICO\",\n        \"Cidade\": \"Porto Alegre\",\n        \"UF\": \"RS\",\n        \"CEP\": null,\n        \"DDD\": null,\n        \"Telefone\": \"32548000\",\n        \"Fax\": null,\n        \"Endereco_eletronico\": \"contabilidade@doctorclin.com.br\",\n        \"Representante\": null,\n        \"Cargo_Representante\": null,\n        \"Regiao_de_Comercializacao\": null,\n        \"Data_Registro_ANS\": null\n    },\n    {\n        \"Registro_ANS\": \"420701\",\n        \"CNPJ\": \"25063964000100\",\n        \"Razao_Social\": \"FUNDAÇÃO DE ASSISTÊNCIA À SAÚDE DA ASSOCIAÇÃO DO MINISTÉRIO PÚBLICO DO RIO GRANDE DO SUL\",\n        \"Nome_Fantasia\": \"FAS/AMP/RS\",\n        \"Modalidade\": null,\n        \"Logradouro\": \"AV. AURELIANO DE FIGUEIREDO PINTO\",\n        \"Numero\": \"501\",\n        \"Complemento\": null,\n        \"Bairro\": \"PRAIA DE BELAS\",\n        \"Cidade\": \"Porto Alegre\",\n        \"UF\": \"RS\",\n        \"CEP\": null,\n        \"DDD\": null,\n        \"Telefone\": \"30222434\",\n        \"Fax\": null,\n        \"Endereco_eletronico\": \"contato@fasamprs.com.br\",\n        \"Representante\": null,\n        \"Cargo_Representante\": null,\n        \"Regiao_de_Comercializacao\": null,\n        \"Data_Registro_ANS\": null\n    },\n    {\n        \"Registro_ANS\": \"416819\",\n        \"CNPJ\": \"58512310000175\",\n        \"Razao_Social\": \"GKN DO BRASIL LTDA\",\n        \"Nome_Fantasia\": \"\",\n        \"Modalidade\": null,\n        \"Logradouro\": \"RUA JOAQUIM SILVEIRA\",\n        \"Numero\": \"557\",\n        \"Complemento\": null,\n        \"Bairro\": \"PASSO DA MANGUEIRA\",\n        \"Cidade\": \"Porto Alegre\",\n        \"UF\": \"RS\",\n        \"CEP\": null,\n        \"DDD\": null,\n        \"Telefone\": \"33499491\",\n        \"Fax\": null,\n        \"Endereco_eletronico\": \"claudio.raiter@gkndriveline.com\",\n        \"Representante\": null,\n        \"Cargo_Representante\": null,\n        \"Regiao_de_Comercializacao\": null,\n        \"Data_Registro_ANS\": null\n    },\n    {\n        \"Registro_ANS\": \"419427\",\n        \"CNPJ\": \"92827666000136\",\n        \"Razao_Social\": \"INSTITUIÇÃO BENEFICENTE CEL MASSOT - IBCM\",\n        \"Nome_Fantasia\": \"IBCM\",\n        \"Modalidade\": null,\n        \"Logradouro\": \"RUA BARãO DO TRIUNFO\",\n        \"Numero\": \"175\",\n        \"Complemento\": null,\n        \"Bairro\": \"MENINO DEUS\",\n        \"Cidade\": \"Porto Alegre\",\n        \"UF\": \"RS\",\n        \"CEP\": null,\n        \"DDD\": null,\n        \"Telefone\": \"32305561\",\n        \"Fax\": null,\n        \"Endereco_eletronico\": \"planejamento_ans@ibcm.org.br\",\n        \"Representante\": null,\n        \"Cargo_Representante\": null,\n        \"Regiao_de_Comercializacao\": null,\n        \"Data_Registro_ANS\": null\n    },\n    {\n        \"Registro_ANS\": \"417840\",\n        \"CNPJ\": \"02919940000104\",\n        \"Razao_Social\": \"NOVODENTE S/A\",\n        \"Nome_Fantasia\": \"NOVODENTE\",\n        \"Modalidade\": null,\n        \"Logradouro\": \"AVENIDA CARLOS GOMES\",\n        \"Numero\": \"222\",\n        \"Complemento\": null,\n        \"Bairro\": \"BOA VISTA\",\n        \"Cidade\": \"Porto Alegre\",\n        \"UF\": \"RS\",\n        \"CEP\": null,\n        \"DDD\": null,\n        \"Telefone\": \"99776493\",\n        \"Fax\": null,\n        \"Endereco_eletronico\": \"jose.wolnei@novodente.com.br\",\n        \"Representante\": null,\n        \"Cargo_Representante\": null,\n        \"Regiao_de_Comercializacao\": null,\n        \"Data_Registro_ANS\": null\n    },\n    {\n        \"Registro_ANS\": \"421464\",\n        \"CNPJ\": \"08961113000165\",\n        \"Razao_Social\": \"ODONTO ALEGRE CLINICAS E PLANOS ODONTOLOGICOS LTDA\",\n        \"Nome_Fantasia\": \"ODONTO ALEGRE CLINICAS E PLANOS ODONTOLOGICOS LTDA\",\n        \"Modalidade\": null,\n        \"Logradouro\": \"Rua Dos  Andradas\",\n        \"Numero\": \"1091\",\n        \"Complemento\": null,\n        \"Bairro\": \"Centro Historico\",\n        \"Cidade\": \"Porto Alegre\",\n        \"UF\": \"RS\",\n        \"CEP\": null,\n        \"DDD\": null,\n        \"Telefone\": \"32257031\",\n        \"Fax\": null,\n        \"Endereco_eletronico\": \"financeiro@odontoalegre.com.br\",\n        \"Representante\": null,\n        \"Cargo_Representante\": null,\n        \"Regiao_de_Comercializacao\": null,\n        \"Data_Registro_ANS\": null\n    },\n    {\n        \"Registro_ANS\": \"405671\",\n        \"CNPJ\": \"92395847000130\",\n        \"Razao_Social\": \"ODONTO PLUS CONVENIO ODONTOLOGICO SOCIEDADE SIMPLES LTDA\",\n        \"Nome_Fantasia\": \"ODONTO PLUS\",\n        \"Modalidade\": null,\n        \"Logradouro\": \"AVENIDA CAÇAPAVA\",\n        \"Numero\": \"146\",\n        \"Complemento\": null,\n        \"Bairro\": \"PETROPOLIS\",\n        \"Cidade\": \"Porto Alegre\",\n        \"UF\": \"RS\",\n        \"CEP\": null,\n        \"DDD\": null,\n        \"Telefone\": \"33881766\",\n        \"Fax\": null,\n        \"Endereco_eletronico\": \"odontoplusrs@odontoplusrs.com.br\",\n        \"Representante\": null,\n        \"Cargo_Representante\": null,\n        \"Regiao_de_Comercializacao\": null,\n        \"Data_Registro_ANS\": null\n    },\n    {\n        \"Registro_ANS\": \"316903\",\n        \"CNPJ\": \"93507895000136\",\n        \"Razao_Social\": \"POLIMÉDICA SAÚDE SOCIEDADE SIMPLES LTDA\",\n        \"Nome_Fantasia\": \"POLIMÉDICA SAÚDE\",\n        \"Modalidade\": null,\n        \"Logradouro\": \"RUA GENERAL NETO\",\n        \"Numero\": \"353\",\n        \"Complemento\": null,\n        \"Bairro\": \"FLORESTA\",\n        \"Cidade\": \"Porto Alegre\",\n        \"UF\": \"RS\",\n        \"CEP\": null,\n        \"DDD\": null,\n        \"Telefone\": \"32213428\",\n        \"Fax\": null,\n        \"Endereco_eletronico\": \"polimedica@polimedica.com.br\",\n        \"Representante\": null,\n        \"Cargo_Representante\": null,\n        \"Regiao_de_Comercializacao\": null,\n        \"Data_Registro_ANS\": null\n    },\n    {\n        \"Registro_ANS\": \"346870\",\n        \"CNPJ\": \"89890172000191\",\n        \"Razao_Social\": \"PORTO ALEGRE CLÍNICAS LTDA.\",\n        \"Nome_Fantasia\": \"POA CLIN\",\n        \"Modalidade\": null,\n        \"Logradouro\": \"RUA MARECHAL FLORIANO PEIXOTO \",\n        \"Numero\": \"155\",\n        \"Complemento\": null,\n        \"Bairro\": \"CENTRO HISTÓRICO \",\n        \"Cidade\": \"Porto Alegre\",\n        \"UF\": \"RS\",\n        \"CEP\": null,\n        \"DDD\": null,\n        \"Telefone\": \"30417855\",\n        \"Fax\": null,\n        \"Endereco_eletronico\": \"portoalegreclinicas@portoalegreclinicas.com.br\",\n        \"Representante\": null,\n        \"Cargo_Representante\": null,\n        \"Regiao_de_Comercializacao\": null,\n        \"Data_Registro_ANS\": null\n    },\n    {\n        \"Registro_ANS\": \"418862\",\n        \"CNPJ\": \"68737857000122\",\n        \"Razao_Social\": \"RBS PARTICIPAÇÕES S/A\",\n        \"Nome_Fantasia\": \"\",\n        \"Modalidade\": null,\n        \"Logradouro\": \"AV. ÉRICO VERÍSSIMO\",\n        \"Numero\": \"400\",\n        \"Complemento\": null,\n        \"Bairro\": \"MENINO DEUS\",\n        \"Cidade\": \"Porto Alegre\",\n        \"UF\": \"RS\",\n        \"CEP\": null,\n        \"DDD\": null,\n        \"Telefone\": \"32186234\",\n        \"Fax\": null,\n        \"Endereco_eletronico\": \"caf@gruporbs.com.br\",\n        \"Representante\": null,\n        \"Cargo_Representante\": null,\n        \"Regiao_de_Comercializacao\": null,\n        \"Data_Registro_ANS\": null\n    },\n    {\n        \"Registro_ANS\": \"409243\",\n        \"CNPJ\": \"03424929000136\",\n        \"Razao_Social\": \"SAUDE PAS - MEDICINA E ODONTO\",\n        \"Nome_Fantasia\": \"SAUDE PAS\",\n        \"Modalidade\": null,\n        \"Logradouro\": \"RUA JERÔNIMO COELHO\",\n        \"Numero\": \"212\",\n        \"Complemento\": null,\n        \"Bairro\": \"CENTRO\",\n        \"Cidade\": \"Porto Alegre\",\n        \"UF\": \"RS\",\n        \"CEP\": null,\n        \"DDD\": null,\n        \"Telefone\": \"30924800\",\n        \"Fax\": null,\n        \"Endereco_eletronico\": \"saudepas@saudepas.com.br\",\n        \"Representante\": null,\n        \"Cargo_Representante\": null,\n        \"Regiao_de_Comercializacao\": null,\n        \"Data_Registro_ANS\": null\n    },\n    {\n        \"Registro_ANS\": \"403245\",\n        \"CNPJ\": \"89455315000137\",\n        \"Razao_Social\": \"SOPREVI SERVIÇO ODONTOLÓGICO PREVENTIVO INTEGRADO LTDA\",\n        \"Nome_Fantasia\": \"SOPREVI SAÚDE BUCAL\",\n        \"Modalidade\": null,\n        \"Logradouro\": \"RUA QUINTINO BOCAIÚVA\",\n        \"Numero\": \"694\",\n        \"Complemento\": null,\n        \"Bairro\": \"MOINHOS DE VENTO\",\n        \"Cidade\": \"Porto Alegre\",\n        \"UF\": \"RS\",\n        \"CEP\": null,\n        \"DDD\": null,\n        \"Telefone\": \"133316151\",\n        \"Fax\": null,\n        \"Endereco_eletronico\": \"soprevi@soprevi.com.br\",\n        \"Representante\": null,\n        \"Cargo_Representante\": null,\n        \"Regiao_de_Comercializacao\": null,\n        \"Data_Registro_ANS\": null\n    },\n    {\n        \"Registro_ANS\": \"338346\",\n        \"CNPJ\": \"90747908000156\",\n        \"Razao_Social\": \"SULMED - ASSISTÊNCIA MÉDICA LTDA\",\n        \"Nome_Fantasia\": \"SULMED\",\n        \"Modalidade\": null,\n        \"Logradouro\": \"AV INDEPENDENCIA\",\n        \"Numero\": \"386\",\n        \"Complemento\": null,\n        \"Bairro\": \"INDEPENDÊNCIA\",\n        \"Cidade\": \"Porto Alegre\",\n        \"UF\": \"RS\",\n        \"CEP\": null,\n        \"DDD\": null,\n        \"Telefone\": \"32201000\",\n        \"Fax\": null,\n        \"Endereco_eletronico\": \"sulmed@sulmed.com.br\",\n        \"Representante\": null,\n        \"Cargo_Representante\": null,\n        \"Regiao_de_Comercializacao\": null,\n        \"Data_Registro_ANS\": null\n    },\n    {\n        \"Registro_ANS\": \"354295\",\n        \"CNPJ\": \"85283299000191\",\n        \"Razao_Social\": \"UNIMED CHAPECÓ - COOPERATIVA DE TRABALHO MÉDICO DA REGIÃO OESTE CATARINENSE\",\n        \"Nome_Fantasia\": \"UNIMED CHAPECÓ\",\n        \"Modalidade\": null,\n        \"Logradouro\": \"RUA PORTO ALEGRE\",\n        \"Numero\": \"132\",\n        \"Complemento\": null,\n        \"Bairro\": \"CENTRO\",\n        \"Cidade\": \"Chapecó\",\n        \"UF\": \"SC\",\n        \"CEP\": null,\n        \"DDD\": null,\n        \"Telefone\": \"33611800\",\n        \"Fax\": null,\n        \"Endereco_eletronico\": \"fernanda.bazzo@unimedchapeco.coop.br\",\n        \"Representante\": null,\n        \"Cargo_Representante\": null,\n        \"Regiao_de_Comercializacao\": null,\n        \"Data_Registro_ANS\": null\n    },\n    {\n        \"Registro_ANS\": \"352501\",\n        \"CNPJ\": \"87096616000196\",\n        \"Razao_Social\": \"UNIMED PORTO ALEGRE - COOPERATIVA MÉDICA LTDA.\",\n        \"Nome_Fantasia\": \"UNIMED PORTO ALEGRE\",\n        \"Modalidade\": null,\n        \"Logradouro\": \"AV VENANCIO AIRES\",\n        \"Numero\": \"1040\",\n        \"Complemento\": null,\n        \"Bairro\": \"BOM FIM\",\n        \"Cidade\": \"Porto Alegre\",\n        \"UF\": \"RS\",\n        \"CEP\": null,\n        \"DDD\": null,\n        \"Telefone\": \"99749007\",\n        \"Fax\": null,\n        \"Endereco_eletronico\": \"normaseobrigacoes@unimedpoa.com.br\",\n        \"Representante\": null,\n        \"Cargo_Representante\": null,\n        \"Regiao_de_Comercializacao\": null,\n        \"Data_Registro_ANS\": null\n    },\n    {\n        \"Registro_ANS\": \"366439\",\n        \"CNPJ\": \"88938089000182\",\n        \"Razao_Social\": \"UNIODONTO PORTO ALEGRE COOPERATIVA ODONTOLOGICA LTDA\",\n        \"Nome_Fantasia\": \"UNIODONTO PORTO ALEGRE COOPERATIVA ODONTOLOGICA LTDA\",\n        \"Modalidade\": null,\n        \"Logradouro\": \"AV. INDEPENDÊNCIA\",\n        \"Numero\": \"914\",\n        \"Complemento\": null,\n        \"Bairro\": \"INDEPENDÊNCIA\",\n        \"Cidade\": \"Porto Alegre\",\n        \"UF\": \"RS\",\n        \"CEP\": null,\n        \"DDD\": null,\n        \"Telefone\": \"33024000\",\n        \"Fax\": null,\n        \"Endereco_eletronico\": \"regulacao@uniodontopoa.com.br\",\n        \"Representante\": null,\n        \"Cargo_Representante\": null,\n        \"Regiao_de_Comercializacao\": null,\n        \"Data_Registro_ANS\": null\n    },\n    {\n        \"Registro_ANS\": \"305421\",\n        \"CNPJ\": \"72120124000111\",\n        \"Razao_Social\": \"UNIODONTO RS FEDERACAO DAS UNIODONTOS DO RGS LTDA\",\n        \"Nome_Fantasia\": \"UNIODONTO/RS\",\n        \"Modalidade\": null,\n        \"Logradouro\": \"RUA QUINTINO BANDEIRA\",\n        \"Numero\": \"64\",\n        \"Complemento\": null,\n        \"Bairro\": \"SÃO GERALDO\",\n        \"Cidade\": \"Porto Alegre\",\n        \"UF\": \"RS\",\n        \"CEP\": null,\n        \"DDD\": null,\n        \"Telefone\": \"32257671\",\n        \"Fax\": null,\n        \"Endereco_eletronico\": \"uniodontors@uniodonto-rs.com.br\",\n        \"Representante\": null,\n        \"Cargo_Representante\": null,\n        \"Regiao_de_Comercializacao\": null,\n        \"Data_Registro_ANS\": null\n    }\n]"
+				},
+				{
+					"name": "Busca por Guarulhos",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8082/search?query=Guarulhos",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8082",
+							"path": [
+								"search"
+							],
+							"query": [
+								{
+									"key": "query",
+									"value": "Guarulhos"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "date",
+							"value": "Wed, 22 Jan 2025 23:40:22 GMT"
+						},
+						{
+							"key": "server",
+							"value": "uvicorn"
+						},
+						{
+							"key": "content-length",
+							"value": "2565"
+						},
+						{
+							"key": "content-type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"Registro_ANS\": \"423912\",\n        \"CNPJ\": \"53249803000140\",\n        \"Razao_Social\": \"ASSISTÊNCIA MÉDICA 12 DE OUTUBRO LTDA\",\n        \"Nome_Fantasia\": \"\",\n        \"Modalidade\": null,\n        \"Logradouro\": \"Rua Presidente Prudente\",\n        \"Numero\": \"267\",\n        \"Complemento\": null,\n        \"Bairro\": \"Jardim São Paulo\",\n        \"Cidade\": \"Guarulhos\",\n        \"UF\": \"SP\",\n        \"CEP\": null,\n        \"DDD\": null,\n        \"Telefone\": \"49665132\",\n        \"Fax\": null,\n        \"Endereco_eletronico\": \"administrativo@12deoutubrosaude.com.br\",\n        \"Representante\": null,\n        \"Cargo_Representante\": null,\n        \"Regiao_de_Comercializacao\": null,\n        \"Data_Registro_ANS\": null\n    },\n    {\n        \"Registro_ANS\": \"417874\",\n        \"CNPJ\": \"08192597000125\",\n        \"Razao_Social\": \"BEM MAIS ODONTO OPERADORA ODONTOLÓGICA LTDA.\",\n        \"Nome_Fantasia\": \"BEM MAIS ODONTO OPERADORA ODONTOLÓGICA LTDA.\",\n        \"Modalidade\": null,\n        \"Logradouro\": \"RUA JOSEPHINA MANDOTTI\",\n        \"Numero\": \"88\",\n        \"Complemento\": null,\n        \"Bairro\": \"JARDIM MAIA\",\n        \"Cidade\": \"Guarulhos\",\n        \"UF\": \"SP\",\n        \"CEP\": null,\n        \"DDD\": null,\n        \"Telefone\": \"23583368\",\n        \"Fax\": null,\n        \"Endereco_eletronico\": \"administrativo@bemmaisodonto.com.br\",\n        \"Representante\": null,\n        \"Cargo_Representante\": null,\n        \"Regiao_de_Comercializacao\": null,\n        \"Data_Registro_ANS\": null\n    },\n    {\n        \"Registro_ANS\": \"414352\",\n        \"CNPJ\": \"05011316000100\",\n        \"Razao_Social\": \"HBC SAÚDE LTDA.\",\n        \"Nome_Fantasia\": \"HBC SAÚDE\",\n        \"Modalidade\": null,\n        \"Logradouro\": \"AVENIDA GUARULHOS\",\n        \"Numero\": \"239\",\n        \"Complemento\": null,\n        \"Bairro\": \"PARQUE ESTRELA - CENTRO\",\n        \"Cidade\": \"Guarulhos\",\n        \"UF\": \"SP\",\n        \"CEP\": null,\n        \"DDD\": null,\n        \"Telefone\": \"24423344\",\n        \"Fax\": null,\n        \"Endereco_eletronico\": \"controladoria@hbcsaude.com.br\",\n        \"Representante\": null,\n        \"Cargo_Representante\": null,\n        \"Regiao_de_Comercializacao\": null,\n        \"Data_Registro_ANS\": null\n    },\n    {\n        \"Registro_ANS\": \"328537\",\n        \"CNPJ\": \"00453863000114\",\n        \"Razao_Social\": \"MED-TOUR ADMINISTRADORA DE BENEFÍCIOS E EMPREENDIMENTOS LTDA.\",\n        \"Nome_Fantasia\": \"MED-TOUR SAUDE\",\n        \"Modalidade\": null,\n        \"Logradouro\": \"Rua Brás Cubas\",\n        \"Numero\": \"83\",\n        \"Complemento\": null,\n        \"Bairro\": \"Vila Lanzara\",\n        \"Cidade\": \"Guarulhos\",\n        \"UF\": \"SP\",\n        \"CEP\": null,\n        \"DDD\": null,\n        \"Telefone\": \"49685126\",\n        \"Fax\": null,\n        \"Endereco_eletronico\": \"andre.casaro@medtoursaude.com.br\",\n        \"Representante\": null,\n        \"Cargo_Representante\": null,\n        \"Regiao_de_Comercializacao\": null,\n        \"Data_Registro_ANS\": null\n    },\n    {\n        \"Registro_ANS\": \"333051\",\n        \"CNPJ\": \"74466137000172\",\n        \"Razao_Social\": \"UNIMED DE GUARULHOS COOPERATIVA DE TRABALHO MÉDICO\",\n        \"Nome_Fantasia\": \"UNIMED DE GUARULHOS\",\n        \"Modalidade\": null,\n        \"Logradouro\": \"AVENIDA  PAULO FACCINI \",\n        \"Numero\": \"900\",\n        \"Complemento\": null,\n        \"Bairro\": \"JARDIM BARBOSA\",\n        \"Cidade\": \"Guarulhos\",\n        \"UF\": \"SP\",\n        \"CEP\": null,\n        \"DDD\": null,\n        \"Telefone\": \"24638000\",\n        \"Fax\": null,\n        \"Endereco_eletronico\": \"secretaria@unimedguarulhos.coop.br\",\n        \"Representante\": null,\n        \"Cargo_Representante\": null,\n        \"Regiao_de_Comercializacao\": null,\n        \"Data_Registro_ANS\": null\n    }\n]"
+				},
+				{
+					"name": "Busca por Jundiaí",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8082/search?query=Jundiaí",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8082",
+							"path": [
+								"search"
+							],
+							"query": [
+								{
+									"key": "query",
+									"value": "Jundiaí"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "date",
+							"value": "Wed, 22 Jan 2025 23:40:50 GMT"
+						},
+						{
+							"key": "server",
+							"value": "uvicorn"
+						},
+						{
+							"key": "content-length",
+							"value": "3585"
+						},
+						{
+							"key": "content-type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"Registro_ANS\": \"422908\",\n        \"CNPJ\": \"41788751000100\",\n        \"Razao_Social\": \"3S ADMINISTRADORA DE BENEFICIOS LTDA\",\n        \"Nome_Fantasia\": \"3S ADMINISTRADORA DE BENEFICIOS\",\n        \"Modalidade\": null,\n        \"Logradouro\": \"RUA ITÁLIA\",\n        \"Numero\": \"33\",\n        \"Complemento\": null,\n        \"Bairro\": \"JARDIM BONFIGLIOLI\",\n        \"Cidade\": \"Jundiaí\",\n        \"UF\": \"SP\",\n        \"CEP\": null,\n        \"DDD\": null,\n        \"Telefone\": \"42263247\",\n        \"Fax\": null,\n        \"Endereco_eletronico\": \"pietrorocchi37@gmail.com\",\n        \"Representante\": null,\n        \"Cargo_Representante\": null,\n        \"Regiao_de_Comercializacao\": null,\n        \"Data_Registro_ANS\": null\n    },\n    {\n        \"Registro_ANS\": \"415910\",\n        \"CNPJ\": \"02569472000195\",\n        \"Razao_Social\": \"CENTRO DE ENDOCRINOLOGIA DE JUNDIAÍ S/S LTDA\",\n        \"Nome_Fantasia\": \"IDEAL VIDA E SAUDE\",\n        \"Modalidade\": null,\n        \"Logradouro\": \"RUA AUGUSTO DA SILVA PALHARES\",\n        \"Numero\": \"105\",\n        \"Complemento\": null,\n        \"Bairro\": \"JARDIM SAO BENTO\",\n        \"Cidade\": \"Jundiaí\",\n        \"UF\": \"SP\",\n        \"CEP\": null,\n        \"DDD\": null,\n        \"Telefone\": \"46072323\",\n        \"Fax\": null,\n        \"Endereco_eletronico\": \"idealvidaesaude@terra.com.br\",\n        \"Representante\": null,\n        \"Cargo_Representante\": null,\n        \"Regiao_de_Comercializacao\": null,\n        \"Data_Registro_ANS\": null\n    },\n    {\n        \"Registro_ANS\": \"419583\",\n        \"CNPJ\": \"17211049000196\",\n        \"Razao_Social\": \"ODONTOMAXI OPERADORA DE PLANOS ODONTOLÓGICOS LTDA\",\n        \"Nome_Fantasia\": \"ODONTOMAXI\",\n        \"Modalidade\": null,\n        \"Logradouro\": \"RUA DAS PITANGUEIRAS\",\n        \"Numero\": \"18\",\n        \"Complemento\": null,\n        \"Bairro\": \"JARDIM PITANGUEIRAS I\",\n        \"Cidade\": \"Jundiaí\",\n        \"UF\": \"SP\",\n        \"CEP\": null,\n        \"DDD\": null,\n        \"Telefone\": \"45274800\",\n        \"Fax\": null,\n        \"Endereco_eletronico\": \"flavia.magalhaes@odontomaxi.com.br\",\n        \"Representante\": null,\n        \"Cargo_Representante\": null,\n        \"Regiao_de_Comercializacao\": null,\n        \"Data_Registro_ANS\": null\n    },\n    {\n        \"Registro_ANS\": \"326500\",\n        \"CNPJ\": \"50739135000141\",\n        \"Razao_Social\": \"SOBAM CENTRO MÉDICO HOSPITALAR S.A.\",\n        \"Nome_Fantasia\": \"SOBAM CENTRO MÉDICO HOSPITALAR S.A.\",\n        \"Modalidade\": null,\n        \"Logradouro\": \"RUA VINTE E TRES DE MAIO\",\n        \"Numero\": \"790\",\n        \"Complemento\": null,\n        \"Bairro\": \"VIANELO\",\n        \"Cidade\": \"Jundiaí\",\n        \"UF\": \"SP\",\n        \"CEP\": null,\n        \"DDD\": null,\n        \"Telefone\": \"45831233\",\n        \"Fax\": null,\n        \"Endereco_eletronico\": \"marcia.miranda@anacostasaude.com.br\",\n        \"Representante\": null,\n        \"Cargo_Representante\": null,\n        \"Regiao_de_Comercializacao\": null,\n        \"Data_Registro_ANS\": null\n    },\n    {\n        \"Registro_ANS\": \"303267\",\n        \"CNPJ\": \"56727134000163\",\n        \"Razao_Social\": \"UNIMED JUNDIAI - COOPERATIVA DE TRABALHO MÉDICO\",\n        \"Nome_Fantasia\": \"UNIMED JUNDIAÍ\",\n        \"Modalidade\": null,\n        \"Logradouro\": \"AV. DONA MANOELA LACERDA DE VERGUEIRO \",\n        \"Numero\": \"25\",\n        \"Complemento\": null,\n        \"Bairro\": \"ANHANGABAÚ\",\n        \"Cidade\": \"Jundiaí\",\n        \"UF\": \"SP\",\n        \"CEP\": null,\n        \"DDD\": null,\n        \"Telefone\": \"45831000\",\n        \"Fax\": null,\n        \"Endereco_eletronico\": \"diretoria@unimedjundiai.com.br\",\n        \"Representante\": null,\n        \"Cargo_Representante\": null,\n        \"Regiao_de_Comercializacao\": null,\n        \"Data_Registro_ANS\": null\n    },\n    {\n        \"Registro_ANS\": \"347795\",\n        \"CNPJ\": \"59527440000144\",\n        \"Razao_Social\": \"UNIODONTO DE JUNDIAÍ COOPERATIVA ODONTOLÓGICA\",\n        \"Nome_Fantasia\": \"UNIODONTO DE JUNDIAÍ\",\n        \"Modalidade\": null,\n        \"Logradouro\": \"RUA PETRONILHA ANTUNES\",\n        \"Numero\": \"211\",\n        \"Complemento\": null,\n        \"Bairro\": \"CENTRO\",\n        \"Cidade\": \"Jundiaí\",\n        \"UF\": \"SP\",\n        \"CEP\": null,\n        \"DDD\": null,\n        \"Telefone\": \"148059999\",\n        \"Fax\": null,\n        \"Endereco_eletronico\": \"gerencia@uniodontojundiai.com.br\",\n        \"Representante\": null,\n        \"Cargo_Representante\": null,\n        \"Regiao_de_Comercializacao\": null,\n        \"Data_Registro_ANS\": null\n    },\n    {\n        \"Registro_ANS\": \"423742\",\n        \"CNPJ\": \"51181429000163\",\n        \"Razao_Social\": \"VROCCHI WAY ADMINISTRADORA DE BENEFICIOS LTDA\",\n        \"Nome_Fantasia\": \"VROCCHI WAY\",\n        \"Modalidade\": null,\n        \"Logradouro\": \"RUA ITALIA\",\n        \"Numero\": \"33.0\",\n        \"Complemento\": null,\n        \"Bairro\": \"JARDIM BONFIGLIOLI\",\n        \"Cidade\": \"Jundiaí\",\n        \"UF\": \"SP\",\n        \"CEP\": null,\n        \"DDD\": null,\n        \"Telefone\": \"45888844\",\n        \"Fax\": null,\n        \"Endereco_eletronico\": \"vi.rocchi47@gmail.com\",\n        \"Representante\": null,\n        \"Cargo_Representante\": null,\n        \"Regiao_de_Comercializacao\": null,\n        \"Data_Registro_ANS\": null\n    }\n]"
+				}
+			]
+		}
+	]
+}
